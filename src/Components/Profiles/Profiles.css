@@ -1,0 +1,54 @@
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.profile-card{
+    background-color: #f2f7ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    padding:20px 10px;
+    margin: 5px;
+    border-radius: .5rem;
+    border: 1px solid orange;
+}
+.profile-card>div>p{
+    padding: 10px;
+}
+.seeprofile-btn{
+    background-color: #0062ff;
+    color: #f2f7ff;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: .5rem;
+
+
+}
+.pagination{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.prev{
+     background-color: orange;
+     padding: 5px 5px;
+}
+.prev>a{
+    color: #fff;
+}
+.pagelist{
+    padding: 5px 10px;
+    margin: 5px;
+}
+.active{
+    background-color: #0062ff;
+}
